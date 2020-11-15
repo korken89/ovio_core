@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 7
-Title ""
+Title "OVIO Core"
 Date ""
-Rev ""
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2236,8 +2236,8 @@ P 7950 9950
 AR Path="/60C177DF" Ref="U?"  Part="1" 
 AR Path="/5D421130/60C177DF" Ref="U403"  Part="1" 
 F 0 "U403" H 8394 9996 50  0000 L CNN
-F 1 "KC2520Z" H 8394 9905 50  0000 L CNN
-F 2 "crystals:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 8100 10100 50  0001 C CNN
+F 1 "KC2016Z50.0000C15XXK" H 8394 9905 50  0000 L CNN
+F 2 "crystals:Crystal_4Pin_2.0x1.6mm" H 8100 10100 50  0001 C CNN
 F 3 "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf" H 8100 10100 50  0001 C CNN
 	1    7950 9950
 	1    0    0    -1  

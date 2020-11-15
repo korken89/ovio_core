@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
-Title "Gateway"
+Title "OVIO Core"
 Date ""
-Rev "3.0"
-Comp "Widefind AB"
+Rev "1.0"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -60,14 +60,14 @@ $Comp
 L Device:Crystal_GND24_Small Y701
 U 1 1 5E465405
 P 7600 4350
-F 0 "Y701" V 7881 4350 50  0000 C CNN
-F 1 "30 MHz" V 7790 4350 50  0000 C CNN
-F 2 "crystals:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 7600 4350 50  0001 C CNN
+F 0 "Y701" V 7319 4350 50  0000 C CNN
+F 1 "30 MHz" V 7410 4350 50  0000 C CNN
+F 2 "crystals:Crystal_4Pin_2.0x1.6mm" H 7600 4350 50  0001 C CNN
 F 3 "~" H 7600 4350 50  0001 C CNN
-F 4 "ABM10-166-12.000MHZ-T3" H 7600 4350 50  0001 C CNN "MFPN"
+F 4 "XRCGB30M000F2P00R0" H 7600 4350 50  0001 C CNN "MFPN"
 F 5 "Abracon LLC" H 7600 4350 50  0001 C CNN "Manufacturer"
 	1    7600 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7600 4250 7950 4250
@@ -81,8 +81,8 @@ AR Path="/5E471E39" Ref="C?"  Part="1"
 AR Path="/5E3E1DDC/5E471E39" Ref="C?"  Part="1" 
 AR Path="/5E55B73C/5E471E39" Ref="C?"  Part="1" 
 AR Path="/5D80E8D8/5E471E39" Ref="C711"  Part="1" 
-F 0 "C711" V 7287 4450 50  0000 C CNN
-F 1 "~" H 7242 4405 50  0000 L CNN
+F 0 "C711" V 6921 4450 50  0000 C CNN
+F 1 "11p" V 7012 4450 50  0000 C CNN
 F 2 "passive:C_0402" H 7150 4450 50  0001 C CNN
 F 3 "~" H 7150 4450 50  0001 C CNN
 F 4 "C0G,50V" H 7150 4450 50  0001 C CNN "Comment"
@@ -102,8 +102,8 @@ AR Path="/5E47224E" Ref="C?"  Part="1"
 AR Path="/5E3E1DDC/5E47224E" Ref="C?"  Part="1" 
 AR Path="/5E55B73C/5E47224E" Ref="C?"  Part="1" 
 AR Path="/5D80E8D8/5E47224E" Ref="C710"  Part="1" 
-F 0 "C710" V 7013 4250 50  0000 C CNN
-F 1 "~" H 7242 4205 50  0000 L CNN
+F 0 "C710" V 6921 4250 50  0000 C CNN
+F 1 "11p" V 7012 4250 50  0000 C CNN
 F 2 "passive:C_0402" H 7150 4250 50  0001 C CNN
 F 3 "~" H 7150 4250 50  0001 C CNN
 F 4 "C0G,50V" H 7150 4250 50  0001 C CNN "Comment"
@@ -1254,4 +1254,8 @@ Wire Notes Line
 	9750 2100 8250 2100
 Wire Notes Line
 	8250 2100 8250 1750
+Text Label 8100 4900 2    50   ~ 0
+TX_P_N
+Text Label 8100 5000 2    50   ~ 0
+TX_P_P
 $EndSCHEMATC

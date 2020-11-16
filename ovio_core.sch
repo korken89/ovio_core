@@ -169,9 +169,6 @@ S 5900 3400 800  500
 U 5D80E8D8
 F0 "USB Interface" 50
 F1 "usb.sch" 50
-F2 "FT_GPIO0" I L 5900 3550 50 
-F3 "FT_GPIO1" I L 5900 3650 50 
-F4 "~FT_RESET" I L 5900 3750 50 
 $EndSheet
 $Comp
 L power:+5V #PWR?
@@ -224,24 +221,6 @@ Text Label 3750 3300 0    50   ~ 0
 CAM0_SDATA
 Text Label 3750 3400 0    50   ~ 0
 CAM0_SCLK
-Text Label 5800 3550 2    50   ~ 0
-FT_GPIO0
-Text Label 5800 3650 2    50   ~ 0
-FT_GPIO1
-Text Label 5800 3750 2    50   ~ 0
-~FT_RESET
-Wire Wire Line
-	5800 3550 5900 3550
-Wire Wire Line
-	5800 3650 5900 3650
-Wire Wire Line
-	5800 3750 5900 3750
-Text Label 3750 2500 0    50   ~ 0
-FT_GPIO0
-Text Label 3750 2600 0    50   ~ 0
-FT_GPIO1
-Text Label 3750 2700 0    50   ~ 0
-~FT_RESET
 $Comp
 L Device:C_Small C101
 U 1 1 60B575F2
@@ -400,12 +379,6 @@ $EndComp
 Wire Wire Line
 	2050 1300 2150 1300
 Connection ~ 2150 1300
-Wire Wire Line
-	3650 2500 3750 2500
-Wire Wire Line
-	3650 2600 3750 2600
-Wire Wire Line
-	3650 2700 3750 2700
 Wire Wire Line
 	3650 2900 3750 2900
 Wire Wire Line
@@ -804,4 +777,7 @@ Wire Wire Line
 NoConn ~ 3650 4900
 NoConn ~ 3650 4400
 NoConn ~ 3650 4100
+NoConn ~ 3650 2500
+NoConn ~ 3650 2600
+NoConn ~ 3650 2700
 $EndSCHEMATC

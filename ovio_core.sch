@@ -164,12 +164,6 @@ U 5D7D6E29
 F0 "DDR3 Memory" 50
 F1 "ram.sch" 50
 $EndSheet
-$Sheet
-S 5900 3400 800  500 
-U 5D80E8D8
-F0 "USB Interface" 50
-F1 "usb.sch" 50
-$EndSheet
 $Comp
 L power:+5V #PWR?
 U 1 1 60A0944B
@@ -185,42 +179,6 @@ F 3 "" H 5800 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 5000 5900 5000
-Wire Wire Line
-	5900 2400 5800 2400
-Wire Wire Line
-	5900 2500 5800 2500
-Wire Wire Line
-	5900 2600 5800 2600
-Wire Wire Line
-	5900 2800 5800 2800
-Wire Wire Line
-	5900 2900 5800 2900
-Wire Wire Line
-	5900 3000 5800 3000
-Text Label 5800 2400 2    50   ~ 0
-CAM1_SDATA
-Text Label 5800 2500 2    50   ~ 0
-CAM1_SCLK
-Text Label 5800 2600 2    50   ~ 0
-CAM1_RESET
-Text Label 5800 3000 2    50   ~ 0
-CAM0_RESET
-Text Label 5800 2800 2    50   ~ 0
-CAM0_SDATA
-Text Label 5800 2900 2    50   ~ 0
-CAM0_SCLK
-Text Label 3750 2900 0    50   ~ 0
-CAM1_SDATA
-Text Label 3750 3000 0    50   ~ 0
-CAM1_SCLK
-Text Label 3750 3100 0    50   ~ 0
-CAM1_RESET
-Text Label 3750 3500 0    50   ~ 0
-CAM0_RESET
-Text Label 3750 3300 0    50   ~ 0
-CAM0_SDATA
-Text Label 3750 3400 0    50   ~ 0
-CAM0_SCLK
 $Comp
 L Device:C_Small C101
 U 1 1 60B575F2
@@ -380,18 +338,6 @@ Wire Wire Line
 	2050 1300 2150 1300
 Connection ~ 2150 1300
 Wire Wire Line
-	3650 2900 3750 2900
-Wire Wire Line
-	3650 3000 3750 3000
-Wire Wire Line
-	3650 3100 3750 3100
-Wire Wire Line
-	3650 3300 3750 3300
-Wire Wire Line
-	3650 3400 3750 3400
-Wire Wire Line
-	3650 3500 3750 3500
-Wire Wire Line
 	3650 3700 3750 3700
 Wire Wire Line
 	3650 3800 3750 3800
@@ -472,13 +418,13 @@ USER_GPIO2
 $Comp
 L interface_esd:IP4254CZ8-4-TTL U101
 U 1 1 6109F23E
-P 2500 6600
-F 0 "U101" H 2675 6775 50  0000 C CNN
-F 1 "IP4254CZ8-4-TTL" H 2675 6684 50  0000 C CNN
-F 2 "dfn:UDFN-8-1EP_1.7x1.35mm_P0.4mm_EP0.4x1.2mm" H 2500 6450 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf" H 2700 5950 50  0001 C CNN
-	1    2500 6600
-	1    0    0    -1  
+P 2500 7000
+F 0 "U101" H 2675 7175 50  0000 C CNN
+F 1 "IP4254CZ8-4-TTL" H 2675 7084 50  0000 C CNN
+F 2 "dfn:UDFN-8-1EP_1.7x1.35mm_P0.4mm_EP0.4x1.2mm" H 2500 6850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf" H 2700 6350 50  0001 C CNN
+	1    2500 7000
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2950 6650 3750 6650
@@ -499,15 +445,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0104
 U 1 1 610A9A88
-P 2950 7050
+P 2950 6550
 AR Path="/610A9A88" Ref="#PWR0104"  Part="1" 
 AR Path="/5D0C5174/610A9A88" Ref="#PWR?"  Part="1" 
 AR Path="/5D1FE04F/610A9A88" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0104" H 2950 6800 50  0001 C CNN
-F 1 "GND" H 2955 6877 50  0001 C CNN
-F 2 "" H 2950 7050 50  0001 C CNN
-F 3 "" H 2950 7050 50  0001 C CNN
-	1    2950 7050
+F 0 "#PWR0104" H 2950 6300 50  0001 C CNN
+F 1 "GND" H 2955 6377 50  0001 C CNN
+F 2 "" H 2950 6550 50  0001 C CNN
+F 3 "" H 2950 6550 50  0001 C CNN
+	1    2950 6550
 	0    -1   -1   0   
 $EndComp
 Text Label 2300 6950 2    50   ~ 0
@@ -777,6 +723,12 @@ Wire Wire Line
 NoConn ~ 3650 4900
 NoConn ~ 3650 4400
 NoConn ~ 3650 4100
+$Sheet
+S 5900 3400 800  500 
+U 5D80E8D8
+F0 "USB Interface" 50
+F1 "usb.sch" 50
+$EndSheet
 NoConn ~ 3650 2500
 NoConn ~ 3650 2600
 NoConn ~ 3650 2700

@@ -593,4 +593,56 @@ F 3 "~" H 5450 4350 50  0001 C CNN
 	1    5450 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FD925A9
+P 8650 3400
+AR Path="/5D80E8D8/5FD925A9" Ref="R?"  Part="1" 
+AR Path="/5D421130/5FD925A9" Ref="R?"  Part="1" 
+AR Path="/5D568428/5FD925A9" Ref="R?"  Part="1" 
+AR Path="/5FD925A9" Ref="R?"  Part="1" 
+AR Path="/5FCC988C/5FD925A9" Ref="R?"  Part="1" 
+AR Path="/5D1FE04F/5FD925A9" Ref="R?"  Part="1" 
+AR Path="/5D4713CF/5FD925A9" Ref="R513"  Part="1" 
+F 0 "R513" V 8454 3400 50  0000 C CNN
+F 1 "1k" V 8545 3400 50  0000 C CNN
+F 2 "passive:R_0402" H 8650 3400 50  0001 C CNN
+F 3 "~" H 8650 3400 50  0001 C CNN
+	1    8650 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 5FD925AF
+P 8650 3100
+AR Path="/5D1FE04F/5FD925AF" Ref="D?"  Part="1" 
+AR Path="/5FD925AF" Ref="D?"  Part="1" 
+AR Path="/5D4713CF/5FD925AF" Ref="D501"  Part="1" 
+F 0 "D501" H 8650 2985 50  0000 C CNN
+F 1 "LED_Small" H 8650 3244 50  0001 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" V 8650 3100 50  0001 C CNN
+F 3 "~" V 8650 3100 50  0001 C CNN
+	1    8650 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 3300 8650 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5FD925B6
+P 8650 3000
+AR Path="/5FD925B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5FD925B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D1FE04F/5FD925B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D4713CF/5FD925B6" Ref="#PWR0507"  Part="1" 
+F 0 "#PWR0507" H 8650 2750 50  0001 C CNN
+F 1 "GND" H 8655 2827 50  0001 C CNN
+F 2 "" H 8650 3000 50  0001 C CNN
+F 3 "" H 8650 3000 50  0001 C CNN
+	1    8650 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 3500 8650 3600
+Connection ~ 8650 3600
 $EndSCHEMATC

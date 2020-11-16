@@ -117,7 +117,7 @@ Text Label 3750 3900 0    50   ~ 0
 IMU_CS
 Text Label 3750 4000 0    50   ~ 0
 IMU_SDO
-Text Label 3750 4100 0    50   ~ 0
+Text Label 3750 4200 0    50   ~ 0
 IMU_INT
 $Sheet
 S 5900 4200 650  900 
@@ -156,7 +156,7 @@ Wire Wire Line
 	5900 4900 5800 4900
 Text Label 5800 4900 2    50   ~ 0
 IMU_HEATER
-Text Label 3750 4200 0    50   ~ 0
+Text Label 3750 4300 0    50   ~ 0
 IMU_HEATER
 $Sheet
 S 7300 2400 1050 1000
@@ -427,9 +427,9 @@ Wire Wire Line
 Wire Wire Line
 	3650 4000 3750 4000
 Wire Wire Line
-	3650 4100 3750 4100
-Wire Wire Line
 	3650 4200 3750 4200
+Wire Wire Line
+	3650 4300 3750 4300
 NoConn ~ 3650 2800
 NoConn ~ 3650 3200
 NoConn ~ 3650 3600
@@ -545,22 +545,22 @@ Text Label 2300 6750 2    50   ~ 0
 P_USER_GPIO0
 Text Label 2300 6650 2    50   ~ 0
 P_USER_FLASH_OUT
-Text Label 3750 4400 0    50   ~ 0
-P_USER_FLASH_OUT
 Text Label 3750 4500 0    50   ~ 0
-P_USER_GPIO0
+P_USER_FLASH_OUT
 Text Label 3750 4600 0    50   ~ 0
-P_USER_GPIO1
+P_USER_GPIO0
 Text Label 3750 4700 0    50   ~ 0
+P_USER_GPIO1
+Text Label 3750 4800 0    50   ~ 0
 P_USER_GPIO2
-Wire Wire Line
-	3650 4400 3750 4400
 Wire Wire Line
 	3650 4500 3750 4500
 Wire Wire Line
 	3650 4600 3750 4600
 Wire Wire Line
 	3650 4700 3750 4700
+Wire Wire Line
+	3650 4800 3750 4800
 $Comp
 L Lattice_ECP5_FPGA:ECP5U_85_CABGA381 U102
 U 3 1 5FD3BE7E
@@ -573,9 +573,6 @@ F 4 "ECP5U_85" H 3800 2450 60  0001 R CNN "manf#"
 	3    3650 2500
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 3650 4300
-NoConn ~ 3650 4800
-NoConn ~ 3650 5300
 NoConn ~ 3650 5400
 NoConn ~ 3650 5500
 NoConn ~ 3650 5600
@@ -788,20 +785,23 @@ Text Label 4350 5950 2    50   ~ 0
 LED3
 Text Label 4350 6250 2    50   ~ 0
 LED4
-Text Label 3750 4900 0    50   ~ 0
-LED1
 Text Label 3750 5000 0    50   ~ 0
-LED2
+LED1
 Text Label 3750 5100 0    50   ~ 0
-LED3
+LED2
 Text Label 3750 5200 0    50   ~ 0
+LED3
+Text Label 3750 5300 0    50   ~ 0
 LED4
-Wire Wire Line
-	3650 4900 3750 4900
 Wire Wire Line
 	3650 5000 3750 5000
 Wire Wire Line
 	3650 5100 3750 5100
 Wire Wire Line
 	3650 5200 3750 5200
+Wire Wire Line
+	3650 5300 3750 5300
+NoConn ~ 3650 4900
+NoConn ~ 3650 4400
+NoConn ~ 3650 4100
 $EndSCHEMATC

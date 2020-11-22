@@ -1691,17 +1691,17 @@ Wire Wire Line
 	6500 7950 6600 7950
 Text Label 6500 7950 2    50   ~ 0
 CAM1_D9_P
-Text Label 6500 7850 2    50   ~ 0
+Text Label 6500 8050 2    50   ~ 0
 CAM1_D8_P
-Text Label 6500 7500 2    50   ~ 0
+Text Label 6500 8150 2    50   ~ 0
 CAM1_D7_P
-Text Label 6500 7400 2    50   ~ 0
+Text Label 6500 7200 2    50   ~ 0
 CAM1_D6_P
 Text Label 6500 7300 2    50   ~ 0
 CAM1_D5_P
-Text Label 6500 7200 2    50   ~ 0
+Text Label 6500 7400 2    50   ~ 0
 CAM1_D4_P
-Text Label 6500 6850 2    50   ~ 0
+Text Label 6500 7500 2    50   ~ 0
 CAM1_D3_P
 Text Label 6500 6750 2    50   ~ 0
 CAM1_D2_P
@@ -1709,13 +1709,11 @@ Text Label 6500 6650 2    50   ~ 0
 CAM1_D1_P
 Text Label 6500 6550 2    50   ~ 0
 CAM1_D0_P
-Text Label 6500 6100 2    50   ~ 0
-CAM1_FV_P
-Text Label 6500 6200 2    50   ~ 0
+Text Label 6500 7850 2    50   ~ 0
 CAM1_LV_P
-Text Label 6500 6000 2    50   ~ 0
+Text Label 6500 6850 2    50   ~ 0
 CAM1_PIXCLK_P
-Text Label 6500 5900 2    50   ~ 0
+Text Label 6500 6200 2    50   ~ 0
 CAM1_FLASH_P
 Wire Wire Line
 	7100 2650 7000 2650
@@ -1803,17 +1801,17 @@ Wire Wire Line
 	7100 7950 7000 7950
 Text Label 7100 7950 0    50   ~ 0
 CAM1_D9
-Text Label 7100 7850 0    50   ~ 0
+Text Label 7100 8050 0    50   ~ 0
 CAM1_D8
-Text Label 7100 7500 0    50   ~ 0
+Text Label 7100 8150 0    50   ~ 0
 CAM1_D7
-Text Label 7100 7400 0    50   ~ 0
+Text Label 7100 7200 0    50   ~ 0
 CAM1_D6
 Text Label 7100 7300 0    50   ~ 0
 CAM1_D5
-Text Label 7100 7200 0    50   ~ 0
+Text Label 7100 7400 0    50   ~ 0
 CAM1_D4
-Text Label 7100 6850 0    50   ~ 0
+Text Label 7100 7500 0    50   ~ 0
 CAM1_D3
 Text Label 7100 6750 0    50   ~ 0
 CAM1_D2
@@ -1823,11 +1821,11 @@ Text Label 7100 6550 0    50   ~ 0
 CAM1_D0
 Text Label 7100 6100 0    50   ~ 0
 CAM1_FV
-Text Label 7100 6200 0    50   ~ 0
+Text Label 7100 7850 0    50   ~ 0
 CAM1_LV
-Text Label 7100 6000 0    50   ~ 0
+Text Label 7100 6850 0    50   ~ 0
 CAM1_PIXCLK
-Text Label 7100 5900 0    50   ~ 0
+Text Label 7100 6200 0    50   ~ 0
 CAM1_FLASH
 Text Label 10150 2400 2    50   ~ 0
 CAM0_D0
@@ -1857,17 +1855,17 @@ Text Label 10150 4400 2    50   ~ 0
 CAM0_PIXCLK
 Text Label 10150 2100 2    50   ~ 0
 CAM0_FLASH
-Text Label 9650 8150 2    50   ~ 0
+Text Label 9650 6950 2    50   ~ 0
 CAM1_D9
-Text Label 9650 8050 2    50   ~ 0
+Text Label 9650 7850 2    50   ~ 0
 CAM1_D8
 Text Label 9650 6850 2    50   ~ 0
 CAM1_PIXCLK
-Text Label 9650 6950 2    50   ~ 0
+Text Label 9650 7550 2    50   ~ 0
 CAM1_FLASH
-Text Label 9650 8350 2    50   ~ 0
+Text Label 9650 8050 2    50   ~ 0
 CAM1_SYSCLK
-Text Label 9650 8250 2    50   ~ 0
+Text Label 9650 7250 2    50   ~ 0
 CAM1_TRIGGER
 Text Label 10150 3500 2    50   ~ 0
 CAM0_SYSCLK
@@ -1918,8 +1916,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 7550 9750 7550
 Wire Wire Line
-	9650 7650 9750 7650
-Wire Wire Line
 	9650 7750 9750 7750
 Wire Wire Line
 	9650 7850 9750 7850
@@ -1932,11 +1928,9 @@ Wire Wire Line
 Wire Wire Line
 	10150 4400 10250 4400
 Wire Wire Line
-	9650 8150 9750 8150
+	9650 9150 9750 9150
 Wire Wire Line
 	9650 6850 9750 6850
-Wire Wire Line
-	9650 8250 9750 8250
 $Comp
 L Device:C_Small C?
 U 1 1 607D171D
@@ -2332,32 +2326,29 @@ Text Label 9650 7150 2    50   ~ 0
 CAM1_LV
 Text Label 9650 7050 2    50   ~ 0
 CAM1_FV
-Text Label 9650 7250 2    50   ~ 0
+Text Label 9650 9650 2    50   ~ 0
 CAM1_D0
-Text Label 9650 7350 2    50   ~ 0
+Text Label 9650 9150 2    50   ~ 0
 CAM1_D1
-Text Label 9650 7450 2    50   ~ 0
+Text Label 9650 9350 2    50   ~ 0
 CAM1_D2
-Text Label 9650 7550 2    50   ~ 0
+Text Label 9650 8350 2    50   ~ 0
 CAM1_D3
-Text Label 9650 7650 2    50   ~ 0
+Text Label 9650 8750 2    50   ~ 0
 CAM1_D4
-Text Label 9650 7750 2    50   ~ 0
-CAM1_D5
-Text Label 9650 7850 2    50   ~ 0
-CAM1_D6
 Text Label 9650 7950 2    50   ~ 0
+CAM1_D5
+Text Label 9650 8550 2    50   ~ 0
+CAM1_D6
+Text Label 9650 8650 2    50   ~ 0
 CAM1_D7
 NoConn ~ 9750 8450
 NoConn ~ 9750 8850
 NoConn ~ 9750 8950
 NoConn ~ 9750 9050
-NoConn ~ 9750 9150
 NoConn ~ 9750 9250
-NoConn ~ 9750 9350
 NoConn ~ 9750 9450
 NoConn ~ 9750 9550
-NoConn ~ 9750 9650
 NoConn ~ 9750 9750
 NoConn ~ 9750 9850
 NoConn ~ 9750 10050
@@ -2388,11 +2379,11 @@ Wire Wire Line
 	10250 4100 10150 4100
 Wire Wire Line
 	10250 3600 10150 3600
-Text Label 9650 8550 2    50   ~ 0
+Text Label 9650 7750 2    50   ~ 0
 CAM1_SDATA
-Text Label 9650 8650 2    50   ~ 0
+Text Label 9650 7450 2    50   ~ 0
 CAM1_SCLK
-Text Label 9650 8750 2    50   ~ 0
+Text Label 9650 7350 2    50   ~ 0
 CAM1_RESET
 Text Label 10150 3600 2    50   ~ 0
 CAM0_RESET
@@ -2400,60 +2391,51 @@ Text Label 10150 4000 2    50   ~ 0
 CAM0_SDATA
 Text Label 10150 4100 2    50   ~ 0
 CAM0_SCLK
-$Comp
-L Device:R_Pack04 RN405
-U 1 1 6046309C
-P 6800 5450
-AR Path="/5D421130/6046309C" Ref="RN405"  Part="1" 
-AR Path="/5D568428/6046309C" Ref="RN?"  Part="1" 
-AR Path="/5FCC988C/6046309C" Ref="RN?"  Part="1" 
-F 0 "RN405" V 6383 5450 50  0000 C CNN
-F 1 "22" V 6474 5450 50  0000 C CNN
-F 2 "passive:R_Array_Convex_4x0402" V 7075 5450 50  0001 C CNN
-F 3 "~" H 6800 5450 50  0001 C CNN
-	1    6800 5450
-	0    1    1    0   
-$EndComp
 NoConn ~ 7000 4900
 NoConn ~ 7000 4800
 NoConn ~ 6600 4900
 NoConn ~ 6600 4800
-Wire Wire Line
-	6500 5350 6600 5350
-Wire Wire Line
-	6500 5250 6600 5250
 Text Label 6500 5350 2    50   ~ 0
 CAM0_TRIGGER_P
 Text Label 6500 5250 2    50   ~ 0
 CAM0_SYSCLK_P
-Wire Wire Line
-	7000 5350 7100 5350
-Wire Wire Line
-	7000 5250 7100 5250
 Text Label 7100 5350 0    50   ~ 0
 CAM0_TRIGGER
 Text Label 7100 5250 0    50   ~ 0
 CAM0_SYSCLK
-NoConn ~ 6600 8050
-NoConn ~ 6600 8150
-NoConn ~ 7000 8150
-NoConn ~ 7000 8050
-Wire Wire Line
-	7000 5550 7100 5550
-Wire Wire Line
-	7000 5450 7100 5450
 Text Label 7100 5550 0    50   ~ 0
 CAM1_TRIGGER
 Text Label 7100 5450 0    50   ~ 0
 CAM1_SYSCLK
-Wire Wire Line
-	6500 5550 6600 5550
-Wire Wire Line
-	6500 5450 6600 5450
 Text Label 6500 5550 2    50   ~ 0
 CAM1_TRIGGER_P
 Text Label 6500 5450 2    50   ~ 0
 CAM1_SYSCLK_P
 Wire Wire Line
 	11300 5650 11550 5650
+Wire Wire Line
+	7000 8050 7100 8050
+Wire Wire Line
+	7000 8150 7100 8150
+Wire Wire Line
+	6600 8050 6500 8050
+Wire Wire Line
+	6600 8150 6500 8150
+Text Label 6500 6100 2    50   ~ 0
+CAM1_FV_P
+NoConn ~ 9750 8150
+Wire Wire Line
+	9750 9350 9650 9350
+NoConn ~ 9750 7650
+Wire Wire Line
+	9650 9650 9750 9650
+NoConn ~ 9750 8250
+Wire Wire Line
+	6500 5250 7100 5250
+Wire Wire Line
+	6500 5350 7100 5350
+Wire Wire Line
+	6500 5450 7100 5450
+Wire Wire Line
+	6500 5550 7100 5550
 $EndSCHEMATC

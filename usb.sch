@@ -82,7 +82,7 @@ AR Path="/5E3E1DDC/5E471E39" Ref="C?"  Part="1"
 AR Path="/5E55B73C/5E471E39" Ref="C?"  Part="1" 
 AR Path="/5D80E8D8/5E471E39" Ref="C711"  Part="1" 
 F 0 "C711" V 6921 4450 50  0000 C CNN
-F 1 "11p" V 7012 4450 50  0000 C CNN
+F 1 "10p" V 7012 4450 50  0000 C CNN
 F 2 "passive:C_0402" H 7150 4450 50  0001 C CNN
 F 3 "~" H 7150 4450 50  0001 C CNN
 F 4 "C0G,50V" H 7150 4450 50  0001 C CNN "Comment"
@@ -103,7 +103,7 @@ AR Path="/5E3E1DDC/5E47224E" Ref="C?"  Part="1"
 AR Path="/5E55B73C/5E47224E" Ref="C?"  Part="1" 
 AR Path="/5D80E8D8/5E47224E" Ref="C710"  Part="1" 
 F 0 "C710" V 6921 4250 50  0000 C CNN
-F 1 "11p" V 7012 4250 50  0000 C CNN
+F 1 "10p" V 7012 4250 50  0000 C CNN
 F 2 "passive:C_0402" H 7150 4250 50  0001 C CNN
 F 3 "~" H 7150 4250 50  0001 C CNN
 F 4 "C0G,50V" H 7150 4250 50  0001 C CNN "Comment"
@@ -1267,4 +1267,62 @@ F 3 "" H 3350 4850 50  0001 C CNN
 	1    3350 4850
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise U702
+U 1 1 5FBA0617
+P 6150 6550
+F 0 "U702" H 6200 6967 50  0000 C CNN
+F 1 "PUSB3FR4Z" H 6200 6876 50  0000 C CNN
+F 2 "dfn:DFN-10-1.0x2.5mm_P0.5mm" H 6150 6550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PUSB3FR4.pdf" H 6150 6550 50  0001 C CNN
+F 4 "PUSB3FR4Z" H 6150 6550 50  0001 C CNN "MFPN"
+	1    6150 6550
+	1    0    0    -1  
+$EndComp
+Text Label 5950 6350 2    50   ~ 0
+TX_N
+Text Label 5950 6450 2    50   ~ 0
+TX_P
+Text Label 5950 6650 2    50   ~ 0
+RX_N
+Text Label 5950 6750 2    50   ~ 0
+RX_P
+Text Label 6450 6350 0    50   ~ 0
+TX_N
+Text Label 6450 6450 0    50   ~ 0
+TX_P
+Text Label 6450 6650 0    50   ~ 0
+RX_N
+Text Label 6450 6750 0    50   ~ 0
+RX_P
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB7BEE
+P 5950 6550
+AR Path="/5FBB7BEE" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5FBB7BEE" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E8D8/5FBB7BEE" Ref="#PWR0727"  Part="1" 
+F 0 "#PWR0727" H 5950 6300 50  0001 C CNN
+F 1 "GND" H 5955 6377 50  0001 C CNN
+F 2 "" H 5950 6550 50  0001 C CNN
+F 3 "" H 5950 6550 50  0001 C CNN
+	1    5950 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB80B1
+P 6450 6550
+AR Path="/5FBB80B1" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5FBB80B1" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E8D8/5FBB80B1" Ref="#PWR0728"  Part="1" 
+F 0 "#PWR0728" H 6450 6300 50  0001 C CNN
+F 1 "GND" H 6455 6377 50  0001 C CNN
+F 2 "" H 6450 6550 50  0001 C CNN
+F 3 "" H 6450 6550 50  0001 C CNN
+	1    6450 6550
+	0    -1   -1   0   
+$EndComp
+Text Notes 5900 6900 0    50   ~ 0
+ESD Protection
 $EndSCHEMATC

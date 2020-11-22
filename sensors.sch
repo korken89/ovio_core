@@ -645,4 +645,8 @@ $EndComp
 Wire Wire Line
 	8650 3500 8650 3600
 Connection ~ 8650 3600
+Wire Wire Line
+	5900 3900 5950 3900
+Text Label 5950 3900 0    50   ~ 0
+HEATER_BASE
 $EndSCHEMATC

@@ -103,15 +103,15 @@ U 5D421130
 F0 "2x cameras" 50
 F1 "parallel_camera.sch" 50
 $EndSheet
-Text Label 3750 3700 0    50   ~ 0
-IMU_SDI
-Text Label 3750 3800 0    50   ~ 0
-IMU_SCK
-Text Label 3750 3900 0    50   ~ 0
-IMU_CS
-Text Label 3750 4000 0    50   ~ 0
-IMU_SDO
 Text Label 3750 4200 0    50   ~ 0
+IMU_SDI
+Text Label 3750 3300 0    50   ~ 0
+IMU_SCK
+Text Label 3750 3200 0    50   ~ 0
+IMU_CS
+Text Label 3750 3700 0    50   ~ 0
+IMU_SDO
+Text Label 3750 4100 0    50   ~ 0
 IMU_INT
 $Sheet
 S 5900 4200 650  900 
@@ -334,17 +334,16 @@ Connection ~ 2150 1300
 Wire Wire Line
 	3650 3700 3750 3700
 Wire Wire Line
-	3650 3800 3750 3800
+	3650 3200 3750 3200
 Wire Wire Line
-	3650 3900 3750 3900
+	3650 3300 3750 3300
 Wire Wire Line
-	3650 4000 3750 4000
+	3650 4100 3750 4100
 Wire Wire Line
 	3650 4200 3750 4200
 Wire Wire Line
 	3650 4300 3750 4300
 NoConn ~ 3650 2800
-NoConn ~ 3650 3200
 NoConn ~ 3650 3600
 $Comp
 L connectors:Conn_01x06 J?
@@ -403,11 +402,11 @@ F 3 "" H 3750 6550 50  0001 C CNN
 $EndComp
 Text Label 3650 6650 2    50   ~ 0
 USER_FLASH_OUT
-Text Label 3650 6750 2    50   ~ 0
+Text Label 3650 6950 2    50   ~ 0
 USER_GPIO0
 Text Label 3650 6850 2    50   ~ 0
 USER_GPIO1
-Text Label 3650 6950 2    50   ~ 0
+Text Label 3650 6750 2    50   ~ 0
 USER_GPIO2
 $Comp
 L interface_esd:IP4254CZ8-4-TTL U101
@@ -450,11 +449,11 @@ F 3 "" H 2950 6550 50  0001 C CNN
 	1    2950 6550
 	0    -1   -1   0   
 $EndComp
-Text Label 2300 6950 2    50   ~ 0
+Text Label 2300 6750 2    50   ~ 0
 P_USER_GPIO2
 Text Label 2300 6850 2    50   ~ 0
 P_USER_GPIO1
-Text Label 2300 6750 2    50   ~ 0
+Text Label 2300 6950 2    50   ~ 0
 P_USER_GPIO0
 Text Label 2300 6650 2    50   ~ 0
 P_USER_FLASH_OUT
@@ -716,7 +715,6 @@ Wire Wire Line
 	3650 5300 3750 5300
 NoConn ~ 3650 4900
 NoConn ~ 3650 4400
-NoConn ~ 3650 4100
 $Sheet
 S 5900 3400 800  500 
 U 5D80E8D8
@@ -726,4 +724,15 @@ $EndSheet
 NoConn ~ 3650 2500
 NoConn ~ 3650 2600
 NoConn ~ 3650 2700
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO101
+U 1 1 600A1542
+P 10600 6050
+F 0 "#LOGO101" H 10600 6550 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 10600 5650 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_28.5x30mm_SilkScreen" H 10600 6050 50  0001 C CNN
+F 3 "~" H 10600 6050 50  0001 C CNN
+	1    10600 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -29,20 +29,6 @@ F 3 "" H 3850 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04 RN404
-U 1 1 5D4A6C6A
-P 6800 4800
-AR Path="/5D421130/5D4A6C6A" Ref="RN404"  Part="1" 
-AR Path="/5D568428/5D4A6C6A" Ref="RN?"  Part="1" 
-AR Path="/5FCC988C/5D4A6C6A" Ref="RN?"  Part="1" 
-F 0 "RN404" V 6383 4800 50  0000 C CNN
-F 1 "22" V 6474 4800 50  0000 C CNN
-F 2 "passive:R_Array_Convex_4x0402" V 7075 4800 50  0001 C CNN
-F 3 "~" H 6800 4800 50  0001 C CNN
-	1    6800 4800
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Pack04 RN403
 U 1 1 5D4A7E22
 P 6800 4150
@@ -120,27 +106,27 @@ F 3 "" H 4250 10050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 2650 6600 2650
-Text Label 6500 3300 2    50   ~ 0
-CAM0_D0_P
 Text Label 6500 3400 2    50   ~ 0
-CAM0_D1_P
+CAM0_D0_P
 Text Label 6500 3500 2    50   ~ 0
-CAM0_D2_P
+CAM0_D1_P
 Text Label 6500 3600 2    50   ~ 0
-CAM0_D3_P
+CAM0_D2_P
 Text Label 6500 3950 2    50   ~ 0
-CAM0_D4_P
+CAM0_D3_P
 Text Label 6500 4050 2    50   ~ 0
-CAM0_D5_P
+CAM0_D4_P
 Text Label 6500 4150 2    50   ~ 0
-CAM0_D6_P
+CAM0_D5_P
 Text Label 6500 4250 2    50   ~ 0
-CAM0_D7_P
+CAM0_D6_P
 Text Label 6500 4600 2    50   ~ 0
-CAM0_D8_P
+CAM0_D7_P
 Text Label 6500 4700 2    50   ~ 0
+CAM0_D8_P
+Text Label 6500 4800 2    50   ~ 0
 CAM0_D9_P
-Text Label 6500 2950 2    50   ~ 0
+Text Label 6500 4900 2    50   ~ 0
 CAM0_LV_P
 Text Label 6500 2850 2    50   ~ 0
 CAM0_FV_P
@@ -403,7 +389,7 @@ F 3 "~" H 4800 2050 50  0001 C CNN
 	1    4800 2050
 	-1   0    0    -1  
 $EndComp
-Text Label 6500 2750 2    50   ~ 0
+Text Label 6500 3300 2    50   ~ 0
 CAM0_PIXCLK_P
 Wire Wire Line
 	2300 1750 2300 1800
@@ -1717,30 +1703,30 @@ Text Label 6500 6200 2    50   ~ 0
 CAM1_FLASH_P
 Wire Wire Line
 	7100 2650 7000 2650
-Text Label 7100 3300 0    50   ~ 0
-CAM0_D0
 Text Label 7100 3400 0    50   ~ 0
-CAM0_D1
+CAM0_D0
 Text Label 7100 3500 0    50   ~ 0
-CAM0_D2
+CAM0_D1
 Text Label 7100 3600 0    50   ~ 0
-CAM0_D3
+CAM0_D2
 Text Label 7100 3950 0    50   ~ 0
-CAM0_D4
+CAM0_D3
 Text Label 7100 4050 0    50   ~ 0
-CAM0_D5
+CAM0_D4
 Text Label 7100 4150 0    50   ~ 0
-CAM0_D6
+CAM0_D5
 Text Label 7100 4250 0    50   ~ 0
-CAM0_D7
+CAM0_D6
 Text Label 7100 4600 0    50   ~ 0
-CAM0_D8
+CAM0_D7
 Text Label 7100 4700 0    50   ~ 0
+CAM0_D8
+Text Label 7100 4800 0    50   ~ 0
 CAM0_D9
-Text Label 7100 2950 0    50   ~ 0
-CAM0_LV_P
+Text Label 7100 4900 0    50   ~ 0
+CAM0_LV
 Text Label 7100 2850 0    50   ~ 0
-CAM0_FV_P
+CAM0_FV
 Wire Wire Line
 	7100 2750 7000 2750
 Wire Wire Line
@@ -1767,7 +1753,7 @@ Wire Wire Line
 	7100 4600 7000 4600
 Wire Wire Line
 	7100 4700 7000 4700
-Text Label 7100 2750 0    50   ~ 0
+Text Label 7100 3300 0    50   ~ 0
 CAM0_PIXCLK
 Text Label 7100 2650 0    50   ~ 0
 CAM0_FLASH
@@ -1827,33 +1813,33 @@ Text Label 7100 6850 0    50   ~ 0
 CAM1_PIXCLK
 Text Label 7100 6200 0    50   ~ 0
 CAM1_FLASH
-Text Label 10150 2400 2    50   ~ 0
-CAM0_D0
-Text Label 10150 2500 2    50   ~ 0
-CAM0_D1
-Text Label 10150 2600 2    50   ~ 0
-CAM0_D2
-Text Label 10150 2700 2    50   ~ 0
-CAM0_D3
-Text Label 10150 2800 2    50   ~ 0
-CAM0_D4
 Text Label 10150 2900 2    50   ~ 0
+CAM0_D0
+Text Label 10150 3600 2    50   ~ 0
+CAM0_D1
+Text Label 10150 4100 2    50   ~ 0
+CAM0_D2
+Text Label 10150 2800 2    50   ~ 0
+CAM0_D3
+Text Label 10150 3100 2    50   ~ 0
+CAM0_D4
+Text Label 10150 2600 2    50   ~ 0
 CAM0_D5
 Text Label 10150 3000 2    50   ~ 0
 CAM0_D6
-Text Label 10150 3100 2    50   ~ 0
+Text Label 10150 3500 2    50   ~ 0
 CAM0_D7
-Text Label 10150 3200 2    50   ~ 0
-CAM0_D8
 Text Label 10150 3300 2    50   ~ 0
+CAM0_D8
+Text Label 10150 3200 2    50   ~ 0
 CAM0_D9
-Text Label 10150 2300 2    50   ~ 0
-CAM0_LV_P
-Text Label 10150 2200 2    50   ~ 0
-CAM0_FV_P
+Text Label 10150 3400 2    50   ~ 0
+CAM0_LV
+Text Label 10150 4000 2    50   ~ 0
+CAM0_FV
 Text Label 10150 4400 2    50   ~ 0
 CAM0_PIXCLK
-Text Label 10150 2100 2    50   ~ 0
+Text Label 10150 4200 2    50   ~ 0
 CAM0_FLASH
 Text Label 9650 6950 2    50   ~ 0
 CAM1_D9
@@ -1867,24 +1853,14 @@ Text Label 9650 8050 2    50   ~ 0
 CAM1_SYSCLK
 Text Label 9650 7250 2    50   ~ 0
 CAM1_TRIGGER
-Text Label 10150 3500 2    50   ~ 0
+Text Label 10150 2500 2    50   ~ 0
 CAM0_SYSCLK
-Text Label 10150 3400 2    50   ~ 0
+Text Label 10150 4300 2    50   ~ 0
 CAM0_TRIGGER
-Wire Wire Line
-	10150 2100 10250 2100
-Wire Wire Line
-	10150 2200 10250 2200
-Wire Wire Line
-	10150 2300 10250 2300
-Wire Wire Line
-	10150 2400 10250 2400
 Wire Wire Line
 	10150 2500 10250 2500
 Wire Wire Line
 	10150 2600 10250 2600
-Wire Wire Line
-	10150 2700 10250 2700
 Wire Wire Line
 	10150 2800 10250 2800
 Wire Wire Line
@@ -2385,16 +2361,12 @@ Text Label 9650 7450 2    50   ~ 0
 CAM1_SCLK
 Text Label 9650 7350 2    50   ~ 0
 CAM1_RESET
-Text Label 10150 3600 2    50   ~ 0
+Text Label 10150 4700 2    50   ~ 0
 CAM0_RESET
-Text Label 10150 4000 2    50   ~ 0
+Text Label 10150 4600 2    50   ~ 0
 CAM0_SDATA
-Text Label 10150 4100 2    50   ~ 0
+Text Label 10150 4500 2    50   ~ 0
 CAM0_SCLK
-NoConn ~ 7000 4900
-NoConn ~ 7000 4800
-NoConn ~ 6600 4900
-NoConn ~ 6600 4800
 Text Label 6500 5350 2    50   ~ 0
 CAM0_TRIGGER_P
 Text Label 6500 5250 2    50   ~ 0
@@ -2438,4 +2410,39 @@ Wire Wire Line
 	6500 5450 7100 5450
 Wire Wire Line
 	6500 5550 7100 5550
+$Comp
+L Device:R_Pack04 RN404
+U 1 1 5D4A6C6A
+P 6800 4800
+AR Path="/5D421130/5D4A6C6A" Ref="RN404"  Part="1" 
+AR Path="/5D568428/5D4A6C6A" Ref="RN?"  Part="1" 
+AR Path="/5FCC988C/5D4A6C6A" Ref="RN?"  Part="1" 
+F 0 "RN404" V 6383 4800 50  0000 C CNN
+F 1 "22" V 6474 4800 50  0000 C CNN
+F 2 "passive:R_Array_Convex_4x0402" V 7075 4800 50  0001 C CNN
+F 3 "~" H 6800 4800 50  0001 C CNN
+	1    6800 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4800 6600 4800
+Wire Wire Line
+	6500 4900 6600 4900
+Wire Wire Line
+	7000 4800 7100 4800
+Wire Wire Line
+	7000 4900 7100 4900
+NoConn ~ 10250 3700
+NoConn ~ 10250 3800
+NoConn ~ 10250 3900
+Wire Wire Line
+	10150 4200 10250 4200
+Wire Wire Line
+	10150 4300 10250 4300
+Wire Wire Line
+	10150 4500 10250 4500
+Wire Wire Line
+	10150 4600 10250 4600
+Wire Wire Line
+	10150 4700 10250 4700
 $EndSCHEMATC

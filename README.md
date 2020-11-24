@@ -37,7 +37,7 @@ If there is interest for acquiring a camera, contact me (via any medium) and we'
 
 ## Contributors
 
-- Emil Fresk ([@korken89](www.github.com/korken89))
+- Emil Fresk ([@korken89](https://github.com/korken89/))
 
 ## License
 

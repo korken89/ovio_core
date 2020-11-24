@@ -79,7 +79,7 @@ Wire Wire Line
 	4400 1400 4400 1350
 Connection ~ 4400 1350
 Wire Wire Line
-	4400 1350 4750 1350
+	4400 1350 4600 1350
 Wire Wire Line
 	4400 1600 4400 1650
 Wire Wire Line
@@ -186,13 +186,13 @@ IMU_INT
 Text Notes 6700 2650 0    50   ~ 0
 DESIGN NOTE:\nIMU needs a pulldown on INT1\nduring startup, see datasheet\nfor details.
 Wire Notes Line
-	6600 2250 7950 2250
+	6650 2250 7950 2250
 Wire Notes Line
-	7950 2250 7950 2750
+	7950 2250 7950 2700
 Wire Notes Line
-	7950 2750 6600 2750
+	7950 2700 6650 2700
 Wire Notes Line
-	6600 2750 6600 2250
+	6650 2700 6650 2250
 Text Label 6700 1350 0    50   ~ 0
 IMU_SDI_P
 Text Label 6700 1450 0    50   ~ 0
@@ -649,4 +649,18 @@ Wire Wire Line
 	5900 3900 5950 3900
 Text Label 5950 3900 0    50   ~ 0
 HEATER_BASE
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5FEAA38D
+P 4600 1350
+F 0 "#FLG0107" H 4600 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 4600 1523 50  0000 C CNN
+F 2 "" H 4600 1350 50  0001 C CNN
+F 3 "~" H 4600 1350 50  0001 C CNN
+	1    4600 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 1350
+Wire Wire Line
+	4600 1350 4750 1350
 $EndSCHEMATC

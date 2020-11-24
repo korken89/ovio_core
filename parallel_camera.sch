@@ -131,11 +131,7 @@ CAM0_LV_P
 Text Label 6500 2850 2    50   ~ 0
 CAM0_FV_P
 Wire Wire Line
-	6500 2750 6600 2750
-Wire Wire Line
 	6500 2850 6600 2850
-Wire Wire Line
-	6500 2950 6600 2950
 Wire Wire Line
 	6500 3300 6600 3300
 Wire Wire Line
@@ -1648,10 +1644,6 @@ F 3 "~" H 6800 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6500 5900 6600 5900
-Wire Wire Line
-	6500 6000 6600 6000
-Wire Wire Line
 	6500 6100 6600 6100
 Wire Wire Line
 	6500 6200 6600 6200
@@ -1728,11 +1720,7 @@ CAM0_LV
 Text Label 7100 2850 0    50   ~ 0
 CAM0_FV
 Wire Wire Line
-	7100 2750 7000 2750
-Wire Wire Line
 	7100 2850 7000 2850
-Wire Wire Line
-	7100 2950 7000 2950
 Wire Wire Line
 	7100 3300 7000 3300
 Wire Wire Line
@@ -1757,10 +1745,6 @@ Text Label 7100 3300 0    50   ~ 0
 CAM0_PIXCLK
 Text Label 7100 2650 0    50   ~ 0
 CAM0_FLASH
-Wire Wire Line
-	7100 5900 7000 5900
-Wire Wire Line
-	7100 6000 7000 6000
 Wire Wire Line
 	7100 6100 7000 6100
 Wire Wire Line
@@ -2112,17 +2096,18 @@ F 4 "ECP5U_85" H 9900 6800 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Text Label 9300 9950 2    50   ~ 0
-50MHZ_PLL_IN
+CLOCK_PLL_IN
 $Comp
 L Oscillator:KC2520Z U?
 U 1 1 60C177DF
 P 7950 9950
 AR Path="/60C177DF" Ref="U?"  Part="1" 
 AR Path="/5D421130/60C177DF" Ref="U403"  Part="1" 
-F 0 "U403" H 8394 9996 50  0000 L CNN
-F 1 "KC2016Z50.0000C15XXK" H 8394 9905 50  0000 L CNN
+F 0 "U403" H 7507 9996 50  0000 R CNN
+F 1 "25 MHz" H 7507 9905 50  0000 R CNN
 F 2 "crystals:Crystal_4Pin_2.0x1.6mm" H 8100 10100 50  0001 C CNN
 F 3 "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf" H 8100 10100 50  0001 C CNN
+F 4 "KC2016Z25.0000C1KX00" H 7950 9950 50  0001 C CNN "MFPN"
 	1    7950 9950
 	1    0    0    -1  
 $EndComp
@@ -2445,4 +2430,89 @@ Wire Wire Line
 	10150 4600 10250 4600
 Wire Wire Line
 	10150 4700 10250 4700
+Text Notes 7800 5500 0    50   ~ 0
+DESIGN NOTE:\nThe slew-rate of the clocks and triggers are \ncontrolled with drive strenght in the FPGA.
+Text Notes 6100 2200 0    50   ~ 0
+DESIGN NOTE:\nThe pixel clocks needs to go to a clock \ncapable pin on the FPGA.
+NoConn ~ 6600 2750
+NoConn ~ 7000 2750
+NoConn ~ 7000 2950
+NoConn ~ 6600 2950
+NoConn ~ 7000 5900
+NoConn ~ 7000 6000
+NoConn ~ 6600 6000
+NoConn ~ 6600 5900
+Text Notes 2800 5300 0    50   ~ 0
+DESIGN NOTE:\nEach camera is implemented as completely \nseperate units (even the I2C is seperate).
+Text Notes 2800 10650 0    50   ~ 0
+DESIGN NOTE:\nStandard M12 lensholders with 20mm screwhole spacing.
+Text Notes 7550 10700 0    50   ~ 0
+DESIGN NOTE:\nFPGA clock inputs to the internal PLL here.
+Wire Notes Line
+	7750 5200 9600 5200
+Wire Notes Line
+	9600 5200 9600 5550
+Wire Notes Line
+	9600 5550 7750 5550
+Wire Notes Line
+	7750 5550 7750 5200
+Wire Notes Line
+	2750 5000 4550 5000
+Wire Notes Line
+	4550 5000 4550 5350
+Wire Notes Line
+	4550 5350 2750 5350
+Wire Notes Line
+	2750 5350 2750 5000
+Wire Notes Line
+	6050 1900 7700 1900
+Wire Notes Line
+	7700 1900 7700 2250
+Wire Notes Line
+	7700 2250 6050 2250
+Wire Notes Line
+	6050 2250 6050 1900
+Wire Notes Line
+	7500 10500 9300 10500
+Wire Notes Line
+	9300 10500 9300 10750
+Wire Notes Line
+	9300 10750 7500 10750
+Wire Notes Line
+	7500 10750 7500 10500
+Wire Notes Line
+	2750 10450 5100 10450
+Wire Notes Line
+	5100 10450 5100 10700
+Wire Notes Line
+	5100 10700 2750 10700
+Wire Notes Line
+	2750 10700 2750 10450
+NoConn ~ 10250 2700
+NoConn ~ 10250 2400
+NoConn ~ 10250 2300
+NoConn ~ 10250 2200
+NoConn ~ 10250 2100
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5FEA793A
+P 1750 7750
+F 0 "#FLG0105" H 1750 7825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 7923 50  0000 C CNN
+F 2 "" H 1750 7750 50  0001 C CNN
+F 3 "~" H 1750 7750 50  0001 C CNN
+	1    1750 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5FEA7D7A
+P 1750 3600
+F 0 "#FLG0106" H 1750 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 3773 50  0000 C CNN
+F 2 "" H 1750 3600 50  0001 C CNN
+F 3 "~" H 1750 3600 50  0001 C CNN
+	1    1750 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

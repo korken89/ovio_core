@@ -5,9 +5,9 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 7
 Title "OVIO Core"
-Date ""
+Date "2020-11-24"
 Rev "1.0"
-Comp ""
+Comp "By Emil Fresk (@korken89)"
 Comment1 ""
 Comment2 ""
 Comment3 ""

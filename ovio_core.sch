@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 9000 3100 700  700 
+S 9000 2800 800  500 
 U 5D0C5174
 F0 "System Power" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 9000 4100 700  300 
+S 9000 3600 800  500 
 U 5D1FE04F
 F0 "FPGA Config" 50
 F1 "config.sch" 50
@@ -98,7 +98,7 @@ F 3 "" H 6550 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7600 1700 950  800 
+S 7600 1700 1250 800 
 U 5D421130
 F0 "2x cameras & FPGA Clock" 50
 F1 "parallel_camera.sch" 50
@@ -153,7 +153,7 @@ IMU_HEATER
 Text Label 3750 4300 0    50   ~ 0
 IMU_HEATER
 $Sheet
-S 9000 1800 1050 1000
+S 9000 1700 800  800 
 U 5D7D6E29
 F0 "DDR3 Memory" 50
 F1 "ram.sch" 50
@@ -716,7 +716,7 @@ Wire Wire Line
 NoConn ~ 3650 4900
 NoConn ~ 3650 4400
 $Sheet
-S 7600 2800 800  500 
+S 7600 2800 1250 500 
 U 5D80E8D8
 F0 "USB FIFO Interface" 50
 F1 "usb.sch" 50

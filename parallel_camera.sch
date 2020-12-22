@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 7
 Title "OVIO Core"
-Date "2020-11-24"
-Rev "1.0"
+Date "2020-12-22"
+Rev "1.1"
 Comp "By Emil Fresk (@korken89)"
 Comment1 ""
 Comment2 ""
@@ -793,6 +793,7 @@ F 0 "U401" H 3525 1865 50  0000 C CNN
 F 1 "MT9V034" H 3525 1774 50  0000 C CNN
 F 2 "cameras:MT9V034" H 2850 1700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MT9V034-D.PDF" H 2850 1700 50  0001 C CNN
+F 4 "MT9V034C12STM" H 2850 1700 50  0001 C CNN "MFPN"
 	1    2850 1700
 	1    0    0    -1  
 $EndComp
@@ -893,6 +894,7 @@ F 0 "FB401" V 1700 3600 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 1404 3600 50  0001 C CNN
 F 2 "passive:R_0402" V 1480 3600 50  0001 C CNN
 F 3 "~" H 1550 3600 50  0001 C CNN
+F 4 "BLM15PX471SN1D" H 1550 3600 50  0001 C CNN "MFPN"
 	1    1550 3600
 	0    1    1    0   
 $EndComp
@@ -1486,6 +1488,7 @@ F 0 "U402" H 3525 6015 50  0000 C CNN
 F 1 "MT9V034" H 3525 5924 50  0000 C CNN
 F 2 "cameras:MT9V034" H 2850 5850 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MT9V034-D.PDF" H 2850 5850 50  0001 C CNN
+F 4 "MT9V034C12STM" H 2850 5850 50  0001 C CNN "MFPN"
 	1    2850 5850
 	1    0    0    -1  
 $EndComp
@@ -1584,6 +1587,7 @@ F 0 "FB402" V 1700 7750 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 1404 7750 50  0001 C CNN
 F 2 "passive:R_0402" V 1480 7750 50  0001 C CNN
 F 3 "~" H 1550 7750 50  0001 C CNN
+F 4 "BLM15PX471SN1D" H 1550 7750 50  0001 C CNN "MFPN"
 	1    1550 7750
 	0    1    1    0   
 $EndComp

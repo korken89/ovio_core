@@ -124,7 +124,7 @@ F 3 "" H 8000 4200 50  0001 C CNN
 	1    8000 4200
 	1    0    0    -1  
 $EndComp
-Text Label 5500 3650 0    50   ~ 0
+Text Label 5500 3850 0    50   ~ 0
 SPI_CS
 Text Label 5600 2250 0    50   ~ 0
 SPI_CLK
@@ -140,9 +140,9 @@ Text Label 5500 3350 0    50   ~ 0
 SPI_D2
 Text Label 5500 3250 0    50   ~ 0
 SPI_D3
-Text Label 5500 3550 0    50   ~ 0
-SPI_MISO
 Text Label 5500 3450 0    50   ~ 0
+SPI_MISO
+Text Label 5500 3550 0    50   ~ 0
 SPI_MOSI
 Wire Wire Line
 	5400 3250 5500 3250
@@ -153,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3550 5500 3550
 Wire Wire Line
-	5400 3650 5500 3650
+	5400 3850 5500 3850
 Wire Wire Line
 	5400 2250 5500 2250
 $Comp
@@ -287,7 +287,7 @@ Wire Wire Line
 Text Label 5500 4150 0    50   ~ 0
 PROGRAMN
 NoConn ~ 5400 3750
-NoConn ~ 5400 3850
+NoConn ~ 5400 3650
 NoConn ~ 5400 3950
 NoConn ~ 5400 4050
 NoConn ~ 5400 2850

@@ -1,6 +1,16 @@
 # Open Visual Inertial Odometry (OVIO) Core
 
-**Current status: WIP (awaiting PCBs for first prototype)**
+## Current status
+
+Work in progress. PCB have arrived for v1.0 of the board and bring-up has started.
+
+### Issues with v1.0 hardware (fixed in v1.1)
+
+* The MOSFET is 180 degrees rotated.
+* The MOSI/MISO lines for the SPI flash are swapped.
+* The CS line of the SPI flash is connected to the wrong pad on the FPGA, flashing and loading bitstream from v1.0 hardware will not work.
+
+Images from the assembly and results here: https://twitter.com/korken89/status/1341126909485342721
 
 ## Motivation
 
